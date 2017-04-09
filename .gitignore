@@ -1,0 +1,9 @@
+**/target/*
+**/test-output/*
+**/.settings/
+*.project
+*.classpath
+*.class
+*/svn/*
+**/*.iml
+**/.idea

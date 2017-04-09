@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhiqian/ClionProjects/PhiAccuralFailureDetector/headers/phiAccuralFailureDetector.h
+list
+-
+cassert
+-
+cmath
+-
+mutex
+-
+time.h
+-
+
+/Users/zhiqian/ClionProjects/PhiAccuralFailureDetector/main.cpp
+iostream
+-
+chrono
+-
+thread
+-
+headers/phiAccuralFailureDetector.h
+/Users/zhiqian/ClionProjects/PhiAccuralFailureDetector/headers/phiAccuralFailureDetector.h
+
+/Users/zhiqian/ClionProjects/PhiAccuralFailureDetector/src/phiAccuralFailureDetector.cpp
+../headers/phiAccuralFailureDetector.h
+/Users/zhiqian/ClionProjects/PhiAccuralFailureDetector/headers/phiAccuralFailureDetector.h
+
